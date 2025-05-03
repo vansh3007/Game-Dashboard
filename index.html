@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Game Dashboard</h1>
+    <div class="card-container">
+      <div class="card" onclick="redirectTo('https://vansh3007.github.io/TicTacToe/')">
+        <img src="https://img.icons8.com/ios-filled/100/0000FF/tic-tac-toe.png" alt="Tic Tac Toe">
+        <h2>Tic-Tac-Toe</h2>
+        <p>Play a classic game of Tic-Tac-Toe!</p>
+      </div>
+      <div class="card" onclick="redirectTo('https://vansh3007.github.io/Stone-Paper-Scissors/')">
+        <!-- Updated icon: Hand gesture for Stone-Paper-Scissors -->
+        <img src="https://img.icons8.com/ios-filled/100/0000FF/hand.png" alt="Stone Paper Scissors">
+        <h2>Stone-Paper-Scissors</h2>
+        <p>Challenge yourself in this simple hand game.</p>
+      </div>
+      <div class="card" onclick="redirectTo('https://vansh-flipgame.netlify.app')">
+        <img src="https://img.icons8.com/ios-filled/100/0000FF/cards.png" alt="Card Flip">
+        <h2>Card Flip Game</h2>
+        <p>Test your memory with this fun card flip game.</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    function redirectTo(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
